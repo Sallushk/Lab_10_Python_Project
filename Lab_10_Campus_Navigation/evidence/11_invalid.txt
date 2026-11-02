@@ -1,0 +1,108 @@
+Welcome! Sample campus loaded: 7 locations, 8 pathways.
+Routes minimize pathway count; all pathways have equal weight.
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): abc
+Invalid choice. Enter a number from 1 to 10.
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): 2
+New location: 
+Error: Use a location name with 1 to 40 printable characters.
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): 2
+New location: LIBRARY
+Error: Location already exists: LIBRARY
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): 3
+First location: Library
+Second location: Library
+Error: Choose two different locations.
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): 3
+First location: Library
+Second location: Hostel
+Error: Location not found: Hostel
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): 3
+First location: Main Gate
+Second location: Library
+Error: Pathway already exists.
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): 10
+Goodbye!

@@ -1,0 +1,119 @@
+{
+  "01_display": {
+    "inputs": [
+      "1",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 1\n\nCampus locations:\n1. Main Gate\n2. Library\n3. Canteen\n4. Computer Lab\n5. Auditorium\n6. Classroom\n7. Playground\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "02_add": {
+    "inputs": [
+      "2",
+      "Medical Room",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 2\nNew location: Medical Room\nAdded location: Medical Room\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "03_connect": {
+    "inputs": [
+      "2",
+      "Medical Room",
+      "3",
+      "Library",
+      "Medical Room",
+      "4",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 2\nNew location: Medical Room\nAdded location: Medical Room\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 3\nFirst location: Library\nSecond location: Medical Room\nPathway added in both directions.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 4\n\nCampus adjacency list:\nMain Gate -> Library, Canteen\nLibrary -> Main Gate, Computer Lab, Auditorium, Medical Room\nCanteen -> Main Gate, Auditorium\nComputer Lab -> Library, Classroom\nAuditorium -> Library, Canteen, Playground\nClassroom -> Computer Lab, Playground\nPlayground -> Auditorium, Classroom\nMedical Room -> Library\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "04_graph": {
+    "inputs": [
+      "4",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 4\n\nCampus adjacency list:\nMain Gate -> Library, Canteen\nLibrary -> Main Gate, Computer Lab, Auditorium\nCanteen -> Main Gate, Auditorium\nComputer Lab -> Library, Classroom\nAuditorium -> Library, Canteen, Playground\nClassroom -> Computer Lab, Playground\nPlayground -> Auditorium, Classroom\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "05_search": {
+    "inputs": [
+      "5",
+      "library",
+      "5",
+      "Hostel",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 5\nSearch location: library\nFound: Library\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 5\nSearch location: Hostel\nLocation not found.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "06_bfs": {
+    "inputs": [
+      "6",
+      "Main Gate",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 6\nStart location: Main Gate\nBFS: Main Gate -> Library -> Canteen -> Computer Lab -> Auditorium -> Classroom -> Playground\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "07_dfs": {
+    "inputs": [
+      "7",
+      "Main Gate",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 7\nStart location: Main Gate\nDFS: Main Gate -> Library -> Computer Lab -> Classroom -> Playground -> Auditorium -> Canteen\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "08_shortest": {
+    "inputs": [
+      "8",
+      "Main Gate",
+      "Classroom",
+      "8",
+      "Library",
+      "Library",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 8\nStart location: Main Gate\nDestination: Classroom\nShortest route: Main Gate -> Library -> Computer Lab -> Classroom\nPathways: 3\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 8\nStart location: Library\nDestination: Library\nShortest route: Library\nPathways: 0\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "09_sort": {
+    "inputs": [
+      "9",
+      "1",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 9\n\nLocations in alphabetical order:\nAuditorium\nCanteen\nClassroom\nComputer Lab\nLibrary\nMain Gate\nPlayground\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 1\n\nCampus locations:\n1. Main Gate\n2. Library\n3. Canteen\n4. Computer Lab\n5. Auditorium\n6. Classroom\n7. Playground\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "10_exit": {
+    "inputs": [
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "11_invalid": {
+    "inputs": [
+      "abc",
+      "2",
+      "",
+      "2",
+      "LIBRARY",
+      "3",
+      "Library",
+      "Library",
+      "3",
+      "Library",
+      "Hostel",
+      "3",
+      "Main Gate",
+      "Library",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): abc\nInvalid choice. Enter a number from 1 to 10.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 2\nNew location: \nError: Use a location name with 1 to 40 printable characters.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 2\nNew location: LIBRARY\nError: Location already exists: LIBRARY\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 3\nFirst location: Library\nSecond location: Library\nError: Choose two different locations.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 3\nFirst location: Library\nSecond location: Hostel\nError: Location not found: Hostel\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 3\nFirst location: Main Gate\nSecond location: Library\nError: Pathway already exists.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  },
+  "12_disconnected": {
+    "inputs": [
+      "2",
+      "Medical Room",
+      "8",
+      "Main Gate",
+      "Medical Room",
+      "10"
+    ],
+    "transcript": "Welcome! Sample campus loaded: 7 locations, 8 pathways.\nRoutes minimize pathway count; all pathways have equal weight.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 2\nNew location: Medical Room\nAdded location: Medical Room\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 8\nStart location: Main Gate\nDestination: Medical Room\nNo route exists between these locations.\n\nCAMPUS NAVIGATION AND SHORTEST PATH FINDER\n1. Display all locations\n2. Add a location\n3. Connect two locations\n4. Display adjacency list\n5. Search for a location\n6. BFS traversal\n7. DFS traversal\n8. Find shortest route\n9. Display locations alphabetically\n10. Exit\nEnter choice (1-10): 10\nGoodbye!\n"
+  }
+}

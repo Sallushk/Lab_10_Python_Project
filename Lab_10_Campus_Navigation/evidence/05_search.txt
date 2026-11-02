@@ -1,0 +1,46 @@
+Welcome! Sample campus loaded: 7 locations, 8 pathways.
+Routes minimize pathway count; all pathways have equal weight.
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): 5
+Search location: library
+Found: Library
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): 5
+Search location: Hostel
+Location not found.
+
+CAMPUS NAVIGATION AND SHORTEST PATH FINDER
+1. Display all locations
+2. Add a location
+3. Connect two locations
+4. Display adjacency list
+5. Search for a location
+6. BFS traversal
+7. DFS traversal
+8. Find shortest route
+9. Display locations alphabetically
+10. Exit
+Enter choice (1-10): 10
+Goodbye!
